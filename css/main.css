@@ -4,7 +4,11 @@ body {
   margin: 0;
   padding: 0;
 }
-
+.wrapper {
+  max-width: 800px;
+  margin: 0px auto 0px auto;
+  background-color: aliceblue;
+}
 h1,
 h2,
 h3,
@@ -15,7 +19,7 @@ h6 {
   font-size: 45px;
 }
 p {
-  font-size: 23px;
+  font-size: 13px;
 }
 
 .container {
@@ -25,9 +29,9 @@ p {
 }
 
 img {
-  width: 50%;
+  width: 55%;
   float: left;
-  padding: 30px;
+  padding: 10px;
 }
 
 .main-nav ul {
@@ -53,9 +57,10 @@ img {
 form input,
 form textarea {
   display: block;
-  width: 100%;
+  width: 80%;
   margin-bottom: 1rem;
   padding: .5rem 1rem;
+  margin: 10px;
 }
 
 form textarea {
